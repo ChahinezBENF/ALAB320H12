@@ -5,7 +5,7 @@ export default function Nav({name}) {
 
   return (
     <li className='li'>
-      <p>{name}</p>
+      <a href="#">{name}</a>
       </li>
   )
 }

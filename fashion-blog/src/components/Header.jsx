@@ -6,8 +6,8 @@ export default function Header() {
   return (
     <header className='header'><h1>Sartre's List</h1>
      <h2> Better-Dressed People</h2>
-   <div aria-label="Main Navigation" role="navigation">
-        <ul >
+   <nav aria-label="Main Navigation" role="navigation">
+        <ul className='ul' >
         <Nav name="Women's" />
         <Nav name="Men's" />
         <Nav name="On the street" />
@@ -15,7 +15,7 @@ export default function Header() {
         <Nav name="AdWatch" />
         <Nav name="About" />
         </ul>
-    </div>
+    </nav>
 
      </header>
   )

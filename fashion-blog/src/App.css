@@ -12,9 +12,8 @@ body {
 }
 
 /* 4- Add Padding to <header>, <main>, and <footer> */
-.header, main, footer {
-  padding: 1rem 2rem; /* 1rem top/bottom, 2rem left/right */
-}
+header, main, footer {
+  padding: 1rem 2rem;}
 
 /*5- Style the <h1> */
 h1 {
@@ -28,7 +27,7 @@ img {
 }
 
 /*7- Style Navigation <ul> */
-.header ul {
+ul {
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -36,12 +35,12 @@ img {
   margin: 0; 
 }
 
-.header a {
+header a {
   color: rgb(197, 188, 188);
   text-decoration: none;
 }
 
-footer nav a {
+footer  a {
   color: tomato;
   text-decoration: none;
 }

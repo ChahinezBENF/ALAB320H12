@@ -1,0 +1,83 @@
+/*1- Style the <html> Element*/
+html {
+   border-left: 5px solid lightgray; /*Use a border only on the left side of the page */
+}
+
+/*2-3 -  Style the <body> Element */
+body {
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: 0 auto; /* Centers the body content */
+  padding: 0; 
+}
+
+/* 4- Add Padding to <header>, <main>, and <footer> */
+.header, main, footer {
+  padding: 1rem 2rem; /* 1rem top/bottom, 2rem left/right */
+}
+
+/*5- Style the <h1> */
+h1 {
+  color: tomato;
+}
+
+/*6- Set Image Width */
+img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/*7- Style Navigation <ul> */
+.header ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between; 
+  margin: 0; 
+}
+
+.header a {
+  color: rgb(197, 188, 188);
+  text-decoration: none;
+}
+
+footer nav a {
+  color: tomato;
+  text-decoration: none;
+}
+
+/*8- Style Blog Post Titles*/
+article h3 {
+  font-size: 1.5rem; 
+}
+
+/*9- Style "Continues..." Links*/
+article a {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  color: tomato;
+  text-decoration: none;
+}
+
+
+/*10- Add Margins and Borders to <article> Tags */
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+/* 11- Add Drop Cap Style to <p> Tags */
+article p::first-letter {
+  font-size: 2rem; 
+  color: lightgray;
+  font-weight: bold; 
+}
+
+/* 12- Style the Copyright */
+footer p {
+  color: lightgray;
+  margin-top: 1rem; /* Space from nav if needed */
+}
+
